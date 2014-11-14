@@ -1,8 +1,8 @@
-class Hola
+class DbDooper
   def self.hi(language)
     translator = Translator.new(language)
     translator.hi
   end
 end
 
-require 'hola/translator'
+require 'db_dooper/translator'

@@ -1,4 +1,4 @@
-class Hola::Translator
+class DbDooper::Translator
   def initialize(language = "english")
     @language = language
   end

@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'hola'
+require 'db_dooper'
 puts Hola.hi(ARGV[0])
