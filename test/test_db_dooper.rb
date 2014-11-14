@@ -1,7 +1,7 @@
-require 'test/unit'
+require 'minitest/autorun'
 require 'db_dooper'
 
-class DbDooperTest < Test::Unit::TestCase
+class DbDooperTest < Minitest::Test
   def test_english_hello
     assert_equal "hello world", DbDooper.hi("english")
   end
